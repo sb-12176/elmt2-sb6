@@ -87,9 +87,11 @@ public class SkillBuilder6
             }
         }
         arr = new String[count];
-        for (int q = 0; q < anArray.length; q++){
+        int e = 0;
+        for (int q = 0; q <= anArray.length-1; q++){
             if (!(anArray[q].equals(s))){
-                arr[q] = anArray[q];
+                arr[e] = anArray[q];
+                e++;
             }
         }
 
